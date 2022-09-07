@@ -1,0 +1,40 @@
+nav img{
+    max-width: 90px;
+    max-height: 90px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+#codes{
+    width: 99%;
+    height: 280px;
+    border-radius: 16px;
+    border: 2px solid #41464b;
+
+}
+main{
+    text-align: center;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 47%;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px;
+}
+#remove{
+    background-color: #dc3545;
+    color: white;
+}
+#run{
+    background-color: #6c757d;
+    color: white;
+}
+#title{
+    border-bottom: 2px solid #41464b;
+    padding-top: 15px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
